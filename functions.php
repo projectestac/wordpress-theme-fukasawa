@@ -430,6 +430,13 @@ class fukasawa_Customize {
 	           <?php self::fukasawa_generate_css('body#tinymce.wp-editor a:hover', 'color', 'accent_color'); ?>
 	           <?php self::fukasawa_generate_css('body#tinymce.wp-editor fieldset legend', 'background', 'accent_color'); ?>
 	           <?php self::fukasawa_generate_css('body#tinymce.wp-editor blockquote:before', 'color', 'accent_color'); ?>
+/*//XTEC ************ AFEGIT - Added tags and categories information
+//2016.02.04  @sarjona*/
+	           <?php self::fukasawa_generate_css('.entry-categories:before', 'color', 'accent_color'); ?>
+	           <?php self::fukasawa_generate_css('.entry-tags:before', 'color', 'accent_color'); ?>
+	           <?php self::fukasawa_generate_css('.entry-categories', 'color', 'accent_color'); ?>
+	           <?php self::fukasawa_generate_css('.entry-tags', 'color', 'accent_color'); ?>
+/*//************ FI*/
 	      </style> 
 	      
 	      <!--/Customizer CSS-->

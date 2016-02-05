@@ -40,7 +40,23 @@
 	    	</div>
 	    
 	    <?php endif; ?>
-	
+<!--//XTEC ************ AFEGIT - Added tags and categories information
+//2016.02.04 @sarjona -->
+		<?php
+			$output = '';
+			$categories = get_the_category();
+			foreach($categories as $category) {
+                $output .= '<a href="'.get_category_link( $category->term_id ).'" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '">'.$category->cat_name.'</a>'.", ";
+            }
+            if (!empty($output)) {
+            	echo '<span class="entry-categories wp-color-result">';
+            	echo trim($output, ", ");
+            	echo '</span>';
+            }
+        ?>
+		<?php $tag = get_the_tags(); if (!$tag) { } else { ?><?php $string_tags=trim(get_the_tag_list("",", "),","); echo '<span class="entry-tags">'; echo $string_tags; echo '</span>'; ?><?php } ?>
+	</span>
+<!--//************ FI -->
 	</div> <!-- /post -->
 
 </div> <!-- /post-container -->

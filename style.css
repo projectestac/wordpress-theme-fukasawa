@@ -2438,3 +2438,41 @@ img#wpstats { display: none; }
 
 		
 }
+/*//XTEC ************ AFEGIT - Added tags and categories information
+//2016.02.04 @sarjona*/
+.entry-categories:before,
+.entry-tags:before{
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  font: normal 18px/1 'Genericons';
+  vertical-align: middle;
+  margin-right: 0.2rem;
+  color: #019EBD;
+}
+
+.entry-categories,
+.entry-tags{
+  font-size: 70%;
+  color: #019EBD;
+}
+
+
+.entry-categories:before{
+  content: "\f301";
+}
+
+.entry-tags:before {
+  content: "\f302";
+}
+/*//************ FI */
+
+/*//XTEC ************ AFEGIT - Added category and tag description
+//2016.02.05  @sarjona */
+.category-description,
+.tag-description {
+	margin: 10px;
+	padding: 10px;
+	background: white;
+	color: #666;
+}
+/*//************ FI */
