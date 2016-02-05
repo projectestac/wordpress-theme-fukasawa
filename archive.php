@@ -35,6 +35,14 @@
 			<?php endif; ?></h4>
 					
 		</div> <!-- /section-inner -->
+<!--//XTEC ************ AFEGIT - Added category and tag description
+//2016.02.05  @sarjona-->
+			<?php if ( is_category() ) : ?>
+				<?php $category_description = category_description(); if(!empty($category_description)) {echo '<div class="category-description">'.$category_description.'</div>';} ?>
+			<?php elseif ( is_tag() ) : ?>
+				<?php $tag_description = tag_description(); if(!empty($tag_description)) {echo '<div class="tag-description">'.$tag_description.'</div>';} ?>
+			<?php endif; ?>
+<!--//************ FI-->
 		
 	</div> <!-- /page-title -->
 	
