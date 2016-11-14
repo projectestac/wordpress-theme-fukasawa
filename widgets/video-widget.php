@@ -60,13 +60,13 @@ class fukasawa_video_widget extends WP_Widget {
 		?>
 		
 		<p>
-			<label for="<?php echo $this->get_field_id('widget_title'); ?>"><?php  _e('Title:', 'fukasawa'); ?>:
+			<label for="<?php echo $this->get_field_id('widget_title'); ?>"><?php  _e('Title:', 'fukasawa'); ?>
 			<input id="<?php echo $this->get_field_id('widget_title'); ?>" name="<?php echo $this->get_field_name('widget_title'); ?>" type="text" class="widefat" value="<?php echo $widget_title; ?>" /></label>
 		</p>
 		
 				
 		<p>
-			<label for="<?php echo $this->get_field_id('video_widget_url'); ?>"><?php  _e('Video URL:', 'fukasawa'); ?>:
+			<label for="<?php echo $this->get_field_id('video_widget_url'); ?>"><?php  _e('Video URL:', 'fukasawa'); ?>
 			<input id="<?php echo $this->get_field_id('video_widget_url'); ?>" name="<?php echo $this->get_field_name('video_widget_url'); ?>" type="text" class="widefat" value="<?php echo $video_widget_url; ?>" /></label>
 		</p>
 						

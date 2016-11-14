@@ -73,13 +73,13 @@ class fukasawa_dribbble_widget extends WP_Widget {
 		?>
 		
 		<p>
-			<label for="<?php echo $this->get_field_id('widget_title'); ?>"><?php  _e('Title:', 'fukasawa'); ?>:
+			<label for="<?php echo $this->get_field_id('widget_title'); ?>"><?php  _e('Title:', 'fukasawa'); ?>
 			<input id="<?php echo $this->get_field_id('widget_title'); ?>" name="<?php echo $this->get_field_name('widget_title'); ?>" type="text" class="widefat" value="<?php echo $widget_title; ?>" /></label>
 		</p>
 				
 		
 		<p>
-			<label for="<?php echo $this->get_field_id('dribbble_username'); ?>"><?php  _e('Dribbble username:', 'fukasawa'); ?>:
+			<label for="<?php echo $this->get_field_id('dribbble_username'); ?>"><?php  _e('Dribbble username:', 'fukasawa'); ?>
 			<input id="<?php echo $this->get_field_id('dribbble_username'); ?>" name="<?php echo $this->get_field_name('dribbble_username'); ?>" type="text" class="widefat" value="<?php echo $dribbble_username; ?>" /></label>
 		</p>
 		
