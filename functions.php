@@ -32,6 +32,11 @@ function fukasawa_setup() {
 	// Title tag
 	add_theme_support('title-tag');
 	
+	// Allow custom background
+	add_theme_support( 'custom-background', array(
+		'default-color' => 'f2f2f2',
+	) );
+	
 	// Add nav menu
 	register_nav_menu( 'primary', __('Primary Menu','fukasawa') );
 	
