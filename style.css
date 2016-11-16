@@ -2476,3 +2476,38 @@ img#wpstats { display: none; }
 	color: #666;
 }
 /*//************ FI */
+
+/*//XTEC ************ AFEGIT - Change icon article link
+//2016.11.14  @xaviernietosanchez */
+.main-menu .current-menu-item:before, .main-menu .current_page_item:before {
+  content: '\f501';
+}
+/*//************ FI*/
+
+/*//XTEC ************ AFEGIT - Change color
+//2016.11.14  @xaviernietosanchez */
+.page-title h4 {
+   color: #FFF;
+}
+/*//************ FI*/
+
+/*//XTEC ************ AFEGIT - Hidden containter images (thumbnail, carrousel,...) into principal page
+//2016.11.14  @xaviernietosanchez */
+.single .featured-media {
+    display: none;
+}
+/*//************ FI*/
+
+/*//XTEC ************ AFEGIT - Change color links main-menu
+//2016.11.14  @xaviernietosanchez */
+.main-menu a {
+  color: #494949;
+}
+/*//************ FI*/
+
+/*//XTEC ************ AFEGIT - Hidden posts with caregory "Pendent"
+//2016.11.14  @xaviernietosanchez */
+body.home div.category-pendents{
+	display:none;
+}
+/*//************ FI*/
